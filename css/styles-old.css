@@ -189,7 +189,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-container {}
@@ -297,7 +297,7 @@ button {
 /* #sesection-team */
 .section-team {
     background-color: #F4F4FD;
-    padding: 120px 0
+    padding: 120px 0;
 }
 
 .container-team {}
@@ -449,7 +449,6 @@ button {
 .drawing {
     position: relative;
     overflow: hidden;
-
 }
 
 .service:last-child(2n+1) {
@@ -471,7 +470,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 
 .drawing {
@@ -511,7 +509,7 @@ button {
 
 .container-footer {
     display: flex;
-    align-items: baseline
+    align-items: baseline;
 }
 
 .logo-footer {
@@ -535,7 +533,7 @@ button {
 
 .container-footer-media {
     width: 208px;
-    height: 80pt;
+    height: 80px;
 }
 
 .footer-media-text {
@@ -598,10 +596,7 @@ button {
     font-weight: 500;
 }
 
-.subscribe-email {
-    display: flex;
-    gap: 24px;
-}
+.subscribe-email {}
 
 .footer-email {}
 
