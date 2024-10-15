@@ -28,12 +28,7 @@
                     <li href="#" class="menu-item"><a class="menu-link" href="">Portfolio</a></li>
                     <li href="#" class="menu-item"><a class="menu-link" href="">Contacts</a></li>
                 </ul>
-                <label class="header-label-user-checkbox">
-                    <span class="header-checkbox">
-                        <svg class="header-checkbox-icon" width="24" height="24">
-                            <use href="./images/menu.svg#icon-burger"></use>
-                        </svg>
-                    </span>
+
             </nav>
             <address class="address">
                 <ul class="contact">
@@ -45,11 +40,16 @@
                     </li>
                 </ul>
             </address>
+            <button class="burger-but" class="icon" onclick="myFunction()">
+                <label class="header-label-user-checkbox"></label>
+                <span class="header-checkbox">
+                    <svg class="header-checkbox-icon" width="24" height="24">
+                        <use href="./images/menu.svg#icon-burger"></use>
+                    </svg>
+                </span>
+                <i class="fa fa-bars"></i>
+            </button>
         </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
         </div>
     </header>
     <!--#endregion header  -->
@@ -442,7 +442,7 @@
     </footer>
     <!--#endregion footer  -->
 
-    <div class="modal-wraper hidden">
+    <div class="modal-wraper">
         <div class="modal">
             <button type="button" class="modal-close-bt">
                 <svg class="close-item" width="8" height="8">
@@ -504,6 +504,8 @@
 
         </div>
     </div>
+
+
 </body>
 
 </html>
